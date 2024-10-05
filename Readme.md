@@ -28,6 +28,19 @@ curl -sSL https://install.python-poetry.org | python3 -
 poetry install
 ```
 
+### Создание конфигурационных файлов
+В папке hw_1/src необходимо создать папку .env, которая будет содержать:
+* config.toml - конфигурационный файл
+```toml
+[system]
+hostname = "my_computer_name"
+
+[filesystem]
+path = "path_to_your_project/hw_1/src/env/filesystem.tar"
+```
+* filesystem.tar - заархивированная файловая система
+
+
 ## Запуск эмулятора
 
 Запуск эмулятора осуществляется с помощью команды
