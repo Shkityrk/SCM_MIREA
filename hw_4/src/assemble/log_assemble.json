@@ -1,0 +1,6 @@
+{
+    "command_1": "LOAD_CONST A=7 B=414",
+    "command_2": "READ A=3 B=767",
+    "command_3": "WRITE A=4 B=403",
+    "command_4": "SHIFT_RIGHT A=2 B=683"
+}
