@@ -11,6 +11,9 @@ toml = "^0.10.2"
 pytest = "^8.3.3"
 
 
+[tool.poetry.group.dev.dependencies]
+setuptools = "^75.5.0"
+
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
